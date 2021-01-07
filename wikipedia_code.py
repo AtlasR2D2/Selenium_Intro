@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-chrome_driver_path = r'C:\Users\micha\Documents\Programming\Web Development\chromedriver.exe'
+chrome_driver_path = r'chromedriver.exe'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 wikipedia_page = "https://en.wikipedia.org/wiki/Main_Page"

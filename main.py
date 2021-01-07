@@ -8,7 +8,7 @@ Amazon_URL = "https://www.amazon.co.uk/dp/B00BACJTTU/ref=twister_B00KRHXN6Y?_enc
 # ---------------------------------------------------------------------------------------------
 #
 
-chrome_driver_path = r'C:\Users\micha\Documents\Programming\Web Development\chromedriver.exe'
+chrome_driver_path = r'chromedriver.exe'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 # driver.get(Amazon_URL)

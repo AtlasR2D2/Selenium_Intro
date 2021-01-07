@@ -6,7 +6,7 @@ GAIN_REWARD_INCREMENT = 5       # Gain a reward every X seconds
 
 cookie_url = "http://orteil.dashnet.org/experiments/cookie/"
 
-chrome_driver_path = r'C:\Users\micha\Documents\Programming\Web Development\chromedriver.exe'
+chrome_driver_path = r'chromedriver.exe'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 driver.get(cookie_url)
